@@ -1,2 +1,2 @@
-# crackingthecoding
-Solving problems and learning concepts with Python 
+# Cracking the Coding
+Solving problems and learning concepts with Python
