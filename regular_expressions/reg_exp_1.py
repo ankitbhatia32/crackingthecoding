@@ -8,7 +8,7 @@ import re # This is the regular expression library we are importing
 # Now this is the simple but we can perform many thing with
 print re.split(r'\s*', 'Hello from the other sides')
 
-print re.split(r'(\s*)', 'No hi from this side')
+print re.split(r'(\s*)', 'No hi from this side and that side')
 
 # Here we are split out string with character 'h' in the the string
 print re.split(r'(h*)', 'Hey there how are you')
