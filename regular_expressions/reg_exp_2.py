@@ -1,7 +1,7 @@
 
 import re
 
-str = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'
+str = 'purple alice@google.com, blah monkey bob@abc.com blah cleaner dishwasher'
 tuples = re.findall(r'([\w\.-]+)@([\w\.-]+)', str)
 print tuples  ## [('alice', 'google.com'), ('bob', 'abc.com')]
 for tuple in tuples:
